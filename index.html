@@ -9,6 +9,12 @@
     <!-- ICONES -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -20,6 +26,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header id="header">
       <nav class="container">
@@ -41,6 +48,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -62,6 +70,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -98,6 +107,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -143,8 +153,82 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTEMONIALS -->
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Possimus a sunt error sint omnis? Sint
+                    dolorem obcaecati minus repellat sit magnam possimus
+                    voluptas ut, voluptate libero praesentium quae vitae.
+                    Veniam?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/85.jpg"
+                      alt=""
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Possimus a sunt error sint omnis? Sint
+                    dolorem obcaecati minus repellat sit magnam possimus
+                    voluptas ut, voluptate libero praesentium quae vitae.
+                    Veniam?
+                  </p>
+                  <cite>
+                    <img src="assets/fotos/testemonial2.jpg" alt="" />
+                    Franciele Venega
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Possimus a sunt error sint omnis? Sint
+                    dolorem obcaecati minus repellat sit magnam possimus
+                    voluptas ut, voluptate libero praesentium quae vitae.
+                    Veniam?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/51.jpg"
+                      alt=""
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
