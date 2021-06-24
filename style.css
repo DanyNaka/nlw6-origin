@@ -146,11 +146,15 @@ main {
 /* ------------- LOGO ------------- */
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 .logo span {
   color: var(--base-color);
+}
+
+.logo-alt span {
+  color: var(--body-color);
 }
 
 /* display: flex, largura do pai e filho devem ser iguais ou o filho ter alguma largura */
@@ -459,4 +463,29 @@ nav.show div.icon-close {
 
 #contact ul li i {
   color: var(--base-color);
+}
+
+/* ------------- FOOTER ------------- */
+
+footer {
+  background: var(--base-color);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a {
+  margin-right: 2rem;
 }
