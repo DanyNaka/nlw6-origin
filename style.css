@@ -489,3 +489,8 @@ footer i {
 footer .social a {
   margin-right: 2rem;
 }
+
+/* ------------- BACK TO TOP ------------- */
+.back-to-top {
+  background: var(--base-color);
+}
