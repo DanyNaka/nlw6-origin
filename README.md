@@ -13,6 +13,6 @@
 
 💻 RESPONSIVE 📱
 
-<img src=".assets/img/responsive_pc.png">
+<img src="assets/img/responsive_pc.png">
 <br>
-<img src=".assets/img/responsive_phone.png">
+<img src="assets/img/responsive_phone.png">
